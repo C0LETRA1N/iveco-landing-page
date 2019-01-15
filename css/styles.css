@@ -1,0 +1,52 @@
+.landing {
+    width: 100%;
+    min-height: 100%;
+    /*background: linear-gradient(rgba(17, 17, 17, 0.95), rgba(17, 17, 17, 0.95)), url(../images/iveco-electric-fist-logo.png);*/
+    background-image: url(../images/iveco-electric-fist-logo.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.landing > div {
+    color: #fff;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(17,17,17,0.95);
+}
+
+.landing > div > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*.text-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}*/
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo img {
+    margin: 0 auto;
+}
+
+.text-center h3 {
+    text-transform: uppercase;
+}
+
+.text-center p {
+    color: #999;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.text-center a {
+    text-transform: uppercase;
+}
